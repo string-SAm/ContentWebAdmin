@@ -1,0 +1,40 @@
+{
+  "name": "config-admin",
+  "version": "0.2.2",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port=8080",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.17",
+    "@mui/material": "^5.15.17",
+    "ajv": "^8.13.0",
+    "bootstrap-css-only": "^4.4.1",
+    "firebase": "^10.12.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "next": "14.2.3",
+    "nodemailer": "^6.9.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-firebase-hooks": "^5.1.1",
+    "react-transition-group": "^4.4.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.1",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.15",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.8",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}
